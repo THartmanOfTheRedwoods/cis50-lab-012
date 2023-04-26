@@ -1,0 +1,4 @@
+PyMySQL~=1.0.3
+SQLAlchemy~=2.0.10
+validators~=0.20.0
+functions-framework~=3.3.0
