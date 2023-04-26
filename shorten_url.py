@@ -22,9 +22,8 @@ def action(request, req_obj):
 
 
 def main(request):
-    req_obj = request.get_json(silent=True)
     try:
-        pass
+        req_obj = request.get_json(silent=True)
     except Exception as e:
         return jsonify({'status': 'ERROR', 'result': str(e)}), 400, {}
 
